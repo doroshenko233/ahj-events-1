@@ -1,0 +1,32 @@
+.title {
+    text-transform: uppercase;
+    color:blueviolet;
+    margin-left: 60px;
+}
+
+.wrapper {
+    width: 680px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+
+  .cell {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(0, 185, 170);
+    margin: 10px;
+    border-radius: 10%;
+  }
+  
+  .activCell {
+    background-image: url('../images/goblin.png');
+    cursor: url('../images/free-icon-hammer-1104041.png'), auto;
+  }
+  
+  .counter {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 24px;
+  }
